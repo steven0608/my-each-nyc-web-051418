@@ -1,5 +1,5 @@
-def my_each(words) # put argument(s) here
-  # code here
+
+def my_each(words) 
   i=0
   while i<words.length
     yield(words[i])
@@ -7,3 +7,5 @@ def my_each(words) # put argument(s) here
   end
 words
 end
+
+my_each(words){|x| puts x}
