@@ -9,4 +9,5 @@ if block_given?
 end
 end
 
-my_each(words[i]) {|x| puts x }
+my_each(words[i]) do |x|
+  puts x end
