@@ -8,4 +8,4 @@ def my_each(words)
 words
 end
 
-my_each(words){|x| puts x}
+my_each(words){|x| x}
