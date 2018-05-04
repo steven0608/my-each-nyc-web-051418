@@ -7,6 +7,6 @@ if block_given?
     i+=1
   end
 end
-
-my_each(words[i]) do |x|
-  puts x end
+end
+#my_each(words[i]) do |x|
+#  puts x end
