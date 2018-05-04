@@ -6,8 +6,8 @@ if block_given?
     yield(words[i])
     i+=1
   end
-  words
 end
+words
 end
 
 my_each(words[i]) {|x| puts x}
